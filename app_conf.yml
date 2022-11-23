@@ -1,0 +1,14 @@
+version: 1
+datastore:
+  user: ""
+  password: ""
+  hostname: "lab6a-andrew.switzerlandnorth.cloudapp.azure.com"
+  port: "3306"
+  db: "network_api"
+events:
+  hostname: lab6a-andrew.switzerlandnorth.cloudapp.azure.com
+  port: 9092
+  topic: events
+kafka:
+  retry: 30
+  retry_wait: 5
